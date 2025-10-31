@@ -6,7 +6,7 @@
 
 
 // Public method to retrieve the title (useful for comparison, if needed)
-std::string Song::getArtist() const {
+std::string Song::getArtist() const { // This is to get the artist not the title
 	return artist;
 }
 
