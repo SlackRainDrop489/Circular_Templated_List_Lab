@@ -108,6 +108,11 @@ class LinkedList {
 				std::cout << "[Playlist is empty. Nothing to play.]" << std::endl;
 			}
 		}
+
+		void playNext() {
+			current_play_node = current_play_node->next;
+			std::cout << "Next up: " << current_play_node->data->toString() << std::endl;
+		}
 };
 
 #endif //CIRCULARTEMPLATEDLIST_LINKEDLIST_H
