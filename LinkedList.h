@@ -108,7 +108,7 @@ class LinkedList {
 				std::cout << "[Playlist is empty. Nothing to play.]" << std::endl;
 			}
 		}
-
+		// This will go and set the current_play_node to the next node so that it can be the next one to be played
 		void playNext() {
 			current_play_node = current_play_node->next;
 			std::cout << "Next up: " << current_play_node->data->toString() << std::endl;

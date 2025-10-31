@@ -1,3 +1,10 @@
+/*
+ *Quinn Alvine
+ *10/31/25
+ *Lab Activities: Circular List Template
+ *This code is to make a playlist of media types and the display and play them
+ */
+
 #include <iostream>
 #include <string>
 #include "Media.h"
