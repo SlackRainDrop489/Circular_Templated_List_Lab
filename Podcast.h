@@ -18,7 +18,7 @@ class Podcast : public Media {
 	public:
 		// Constructor
 		Podcast(const std::string &t, const std::string &h, const int d)
-			: Media(t, d) {
+			: Media(t, d), host(h), episodeNumber(d), episodeTitle(t) {
 		}
 
 		// Override toString() from the Media base class.

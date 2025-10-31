@@ -8,7 +8,7 @@
 #include "Media.h"
 #include <iostream>
 
-template<class T>
+template<typename T>
 struct Node {
 	T data;
 	Node<T> *next;
